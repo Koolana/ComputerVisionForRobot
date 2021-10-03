@@ -11,5 +11,5 @@ if __name__ == '__main__':
         cv2.imshow('RealSense depth', depthImg)
         cv2.imshow('RealSense color', cv2.cvtColor(colorImg, cv2.COLOR_RGB2BGR))
         print(depthImg.shape, colorImg.shape)
-        
+
         cv2.waitKey(1)
